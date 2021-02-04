@@ -38,45 +38,6 @@ firstly {
 }
 ```
 
-## CocoaPods
-
-```ruby
-# Podfile
-pod 'PromiseKit/Alamofire', '~> 6.0'
-```
-
-```swift
-// `.swift` files
-import PromiseKit
-import Alamofire
-```
-
-```objc
-// `.m files`
-@import PromiseKit;
-@import Alamofire;
-```
-
-## Carthage
-
-```ruby
-github "PromiseKit/PMKAlamofire" ~> 3.0
-```
-
-The extensions are built into their own framework:
-
-```swift
-// `.swift` files
-import PromiseKit
-import PMKAlamofire
-```
-
-```objc
-// `.m files`
-@import PromiseKit;
-@import PMKAlamofire;
-```
-
 ## SwiftPM
 
 ```swift
