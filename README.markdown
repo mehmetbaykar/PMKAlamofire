@@ -43,7 +43,7 @@ firstly {
 ```swift
 let package = Package(
     dependencies: [
-        .Target(url: "https://github.com/PromiseKit/PMKAlamofire", majorVersion: 3)
+        .Target(url: "https://github.com/PromiseKit/PMKAlamofire", majorVersion: 1.0.0)
     ]
 )
 ```
